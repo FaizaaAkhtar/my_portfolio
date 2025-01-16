@@ -1,0 +1,40 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/PVS.jpg",
+            "title": "PVS PATHWAY INFORMATION SYSTEM - WOAH",
+            "bodyText": "The Performance of Veterinary Services (PVS) Pathway, WOAH’s flagship capacity building programme for the sustainable improvement of national Veterinary Services and Aquatic Animal Health Services, has transformed into the PVS Information System. Through the PVSIS, WOAH has unlocked the data and insights contained in PVS Reports to allow more effective advocacy efforts for investment and sustainable funding and a deeper understanding of performance trends towards compliance with WOAH International Standards.",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://pvs.woah.org/"
+                }
+            ],
+            "tags" : [
+                "React JS",
+                "Node JS",
+                "MSSQL",
+                "Bootstrap",
+                "Material UI"
+            ]
+        },
+        {
+            "image" : "images/projects/sont.jpg",
+            "title": "WOAH - Standards Online Navigation Tool",
+            "bodyText": "The World Organisation for Animal Health (WOAH, founded as OIE) Terrestrial and Aquatic Animal Health Codes provide standards for the improvement of animal health and welfare and veterinary public health worldwide, including through standards for safe international trade in terrestrial and aquatic animals and their products. The manuals provide a standardised approach to the diagnosis of the diseases listed in the Terrestrial and Aquatic Codes.",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "http://caaring.herokuapp.com"
+                }
+            ],
+            "tags" : [
+                "React JS",
+                "Node JS",
+                "MSSQL",
+                "Bootstrap",
+                "Material UI"
+            ]
+        }
+    ]
+}

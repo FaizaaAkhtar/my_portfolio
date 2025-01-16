@@ -1,0 +1,17 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/faiza-akhtar-276a8727a"
+        },
+        {
+            "network" : "whatsapp",
+            "href": "tel:+923161549796"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:faizaakhtar870@gmail.com"
+        }
+        
+    ]
+}
