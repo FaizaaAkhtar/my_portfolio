@@ -70,14 +70,14 @@ const NavBar = () => {
     } else if (command.includes('experience page') || command.includes('experience section')) {
       window.location.href = '/experience';
       speakMessage('Going to experience page');
-    } else if (command.includes('project page') || command.includes('project section')) {
+    } else if (command.includes('projects page') || command.includes('projects section')) {
       window.location.href = '/projects';
       speakMessage('Going to projects page');
     } else {
       speakMessage('Sorry, this page does not exist.');
     }
   };
-  
+
 
   const handleMicClick = () => {
     const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
@@ -170,12 +170,15 @@ const NavBar = () => {
           </Nav>
           <button
             onClick={handleMicClick}
-            className="mic-button"
-            aria-label="Start voice recognition"
+            className={`mic-btn ${isListening ? 'listening' : ''}`}
+            aria-label={isListening ? 'Stop voice recognition' : 'Start voice recognition'}
             type="button"
           >
-            speak
-            {isListening ? 'Listening...' : 'Start'}
+            🎤
+
+            <span className="tooltip">
+              {isListening ? 'Stop Listening' : 'Speak to navigate (e.g. “Home Page”, “Projects Page”)'}
+            </span>
           </button>
           <ThemeToggler
             onClick={() => setExpanded(false)}

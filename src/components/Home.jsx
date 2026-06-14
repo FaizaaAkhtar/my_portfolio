@@ -4,7 +4,6 @@ import Typewriter from 'typewriter-effect';
 import endpoints from '../constants/endpoints';
 import Social from './Social';
 import FallbackSpinner from './FallbackSpinner';
-import VoiceNavigation from './VoiceNavigation';
 
 const styles = {
   nameStyle: {
@@ -71,7 +70,6 @@ function Home() {
         <div className="col-6 text-center">
           <p>{data.description}</p>
         </div>
-        <VoiceNavigation />
         <Social />
       </div>
     </div>

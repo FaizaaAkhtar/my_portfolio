@@ -19,6 +19,15 @@ const VoiceNavigation = () => {
     } else if (command.includes('contact page')) {
       window.location.href = '/contact';
       speakMessage('Navigating to contact page');
+    } else if (command.includes('skills page')) {
+      window.location.href = '/skills';
+      speakMessage('Navigating to skills page');
+    } else if (command.includes('experienc page')) {
+      window.location.href = '/experience';
+      speakMessage('Navigating to experience page');
+    } else if (command.includes('projects page')) {
+      window.location.href = '/projects';
+      speakMessage('Navigating to projects page');
     } else {
       speakMessage('Sorry, this page does not exist.');
     }
