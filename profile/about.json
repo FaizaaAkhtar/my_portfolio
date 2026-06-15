@@ -1,0 +1,5 @@
+{
+  "about": "Full Stack Web Developer with 2+ years of experience in designing, developing, and deploying scalable and user-centric web applications using the MERN stack (MySQL, Express.js, React.js, Node.js). I specialize in building complete end-to-end solutions, ranging from database design and backend architecture to responsive and modern frontend interfaces.\n\nI have strong expertise in developing secure and efficient RESTful APIs with proper authentication, authorization, and data validation. I am also experienced in relational database management, including schema design, complex queries, optimization, and ensuring data integrity.\n\nOn the frontend, I focus on creating intuitive, responsive, and high-performance user interfaces using React.js and Material UI, ensuring a smooth and consistent user experience across all devices.\n\nI am passionate about writing clean, maintainable, and scalable code, and I consistently aim to deliver high-quality solutions with strong emphasis on performance, security, usability, and long-term scalability.",
+  
+  "imageSource": "../images/logo.png"
+}

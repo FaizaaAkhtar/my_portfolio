@@ -1,0 +1,25 @@
+{
+    "experiences": [
+        {
+            "title": "FULL STACK DEVELOPER",
+            "subtitle": "Sysreforms International",
+            "workType": "Full-time",
+            "workDescription": [
+                "System Development and maintenance",
+                "API’s development and API’s Integration, Database integration",
+                "Designed and Developed responsive layouts."
+            ],
+            "dateText": "2023 – Present"
+        },
+        {
+            "title": "FRONT END Developer",
+            "subtitle": "Apex Viewers Technologies",
+            "workType": "Internship",
+            "workDescription": [
+                "Worked as a front end developer, designed complete UI of website using HTML, CSS, Bootstrap and JavaScript"
+            ],
+            "dateText": "05/2022 – 08/2022"
+        }
+        
+    ]
+}
