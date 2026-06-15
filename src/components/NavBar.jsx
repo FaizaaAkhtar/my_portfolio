@@ -94,7 +94,6 @@ const NavBar = () => {
 
     recognition.onresult = (event) => {
       const transcript = event.results[0][0].transcript.toLowerCase();
-      console.log("transcript", transcript);
       processCommand(transcript);
     };
 
